@@ -1,0 +1,19 @@
+{
+  "name": "flappy-bird-game",
+  "version": "1.0.0",
+  "description": "A simple Flappy Bird clone built with TypeScript.",
+  "main": "src/game.ts",
+  "scripts": {
+    "start": "tsc && node dist/game.js",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
